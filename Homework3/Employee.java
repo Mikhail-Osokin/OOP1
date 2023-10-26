@@ -37,9 +37,10 @@ final class Employee implements Comparable<Employee>{
         return age - employee.getAge();
     }
 
-@Override
+//@Override
 
     public String toString(){
-        return "(" + name +","+ age + "," +salary+ "," + nameDepartment +")";
+    //    return "(" + name +","+ age + "," +salary+ "," + nameDepartment +")";
+        return "(" + nameDepartment +")";
     }
 }
