@@ -47,12 +47,14 @@ public class Homework3 {
               }
               return s2 - s1;
             }
-        }
+        
         
     
             SalarySortComparator salarySortComparator = new SalarySortComparator();
             Set<Employee> employeers = new TreeSet<>(salarySortComparator);
             
+        }
+            System.out.println(employeers);  
         class NameDepartmentSortComparator implements Comparator <String>{
         
         //Comparator<Integer> SalarySortComparator = new Comparator<>(){
@@ -65,11 +67,11 @@ public class Homework3 {
               }
               return s1.length() - s2.length();
             }
-        }
+        
             NameDepartmentSortComparator nameDepartmentSortComparator = new NameDepartmentSortComparator();
             Set<Employee> employeers = new TreeSet<>(nameDepartmentSortComparator);  
     }
+            System.out.println(employeers);
         }
     }
-}
     
