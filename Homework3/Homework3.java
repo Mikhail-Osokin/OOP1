@@ -35,7 +35,8 @@ public class Homework3 {
         employeers.add(new Employee("Igor",46,4600,"Director"));
         Set<Employee> employeers1 = (Set<Employee>) ((TreeSet) employeers).clone();
         Set<Employee> employeers2 = (Set<Employee>) ((TreeSet) employeers).clone();
-        //System.out.println(employeers);
+        System.out.println(employeers);
+        
         //Comparator<Integer> SalarySortComparator = 
                   
         
