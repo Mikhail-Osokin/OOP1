@@ -48,7 +48,7 @@ public class Homework3 {
               Iterator <Employee> iterator = employeers1.iterator();  
               while (iterator.hasNext()){
               s1 = iterator.next().getSalary();
-              s2 = iterator.next().getSalary();
+              s2 = iterator.next().salary;
               }
               return s2 - s1;
             }
@@ -64,7 +64,7 @@ public class Homework3 {
         public int compare(String s1, String s2) {
               Iterator <Employee> iterator = employeers2.iterator();  
               while (iterator.hasNext()){
-              s1 = iterator.next().getNameDepartment();
+              s1 = iterator.next().nameDepartment;
               s2 = iterator.next().getNameDepartment();
               }
               return s1.length() - s2.length();
